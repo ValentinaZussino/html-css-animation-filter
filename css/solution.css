@@ -69,3 +69,17 @@
         transform: rotate(1turn) ;
     }
 }
+.ex-11-icon:hover {
+    animation: spinALittleBit 3s linear;
+}
+@keyframes spinALittleBit {
+    0% {
+        transform: rotate(0) ;
+    }
+    90% {
+        transform: rotate(300deg);
+    }
+    100% {
+        transform: rotate(0) ;
+    }
+}
