@@ -53,3 +53,11 @@
     filter:hue-rotate(360deg);
     transform: scale(0.5);
 }
+.ex-9-img {
+    transition: 2s;
+}
+.ex-9-img:hover {
+    border-radius: 25px;
+    opacity: 0.5;
+    transform: scale(0.5);
+}
