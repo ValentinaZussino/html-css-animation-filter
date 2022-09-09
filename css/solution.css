@@ -45,3 +45,11 @@
     border-radius: 50%;
     filter: grayscale();
 }
+.ex-8-img {
+    transition: 2s;
+}
+.ex-8-img:hover {
+    border-radius: 25px;
+    filter:hue-rotate(360deg);
+    transform: scale(0.5);
+}
